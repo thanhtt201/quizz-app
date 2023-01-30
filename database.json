@@ -1,5 +1,27 @@
 {
   "users": [
     { "id": 1, "username": "Trần Tiến Thành", "password": "123456" }
+  ],
+  "categories": [
+    { "id": 1, "name": "Nơi công sở" },
+    { "id": 2, "name": "Nhà hàng" },
+    { "id": 3, "name": "Trường học" }
+  ],
+  "questions": [
+    {
+      "category": "Food & Drink",
+      "id": "624c6148badf21197f98f771",
+      "answers": [
+        { "id": 1, "content": "United States", "isCorrect": true },
+        { "id": 2, "content": "Brunei", "isCorrect": false },
+        { "id": 3, "content": "Bahrain", "isCorrect": false },
+        { "id": 4, "content": "Vietnam", "isCorrect": false }
+      ],
+      "question": "Where in the world would you most expect to be served Mac 'N' Cheese?",
+      "type": "Multiple Choice",
+      "difficulty": "easy",
+      "regions": [],
+      "isNiche": false
+    }
   ]
 }
